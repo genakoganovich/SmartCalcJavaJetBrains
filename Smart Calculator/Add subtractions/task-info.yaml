@@ -1,21 +1,6 @@
 type: edu
 custom_name: stage4
 files:
-- name: src/calculator/Main.java
-  visible: true
-  text: |
-    package calculator;
-
-    import java.util.Scanner;
-
-    public class Main {
-
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            // put your code here
-        }
-    }
-  learner_created: false
 - name: test/Test.java
   visible: false
   text: |
@@ -175,9 +160,24 @@ files:
         }
     }
   learner_created: false
+- name: src/calculator/Main.java
+  visible: true
+  text: |
+    package calculator;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // put your code here
+        }
+    }
+  learner_created: false
 feedback_link: https://hyperskill.org/projects/42/stages/223/implement#comment
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 24 Dec 2020 21:10:21 UTC
-record: -1
+  time: Thu, 24 Dec 2020 22:01:55 UTC
+record: 4
